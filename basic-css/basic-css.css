@@ -1,0 +1,147 @@
+h1 {
+  color: blackS;
+}
+
+.box-1 {
+  background-color: none !important;
+  margin: auto;
+  width: 50%;
+  border: red solid 0px !important;
+  padding-top: 10px;
+  color: white;
+}
+
+.box-1 h1 {
+  color: black;
+  text-align: center;
+}
+
+.box-1 p {
+  padding-left: 20;
+  padding-right: 20;
+  padding-top: 20;
+  padding-bottom: 20;
+}
+
+.box-2 {
+  color: white;
+  margin: auto;
+  width: 50%;
+  border: 0px !important;
+  margin-top: 10px;
+}
+
+.box-2 h1 {
+  color: BLACK;
+  text-align: center;
+}
+.box-2 p {
+  padding-top: 20;
+  padding-left: 20;
+  padding-right: 20;
+  padding-bottom: 20;
+}
+
+body {
+  background-image: url("gold.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box-3 {
+  border: red solid 0px !important;
+  width: 50%;
+  margin: auto;
+  margin-top: 10px;
+  color: black;
+  border-radius: 10px;
+}
+
+.box-3 ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+.box-3 li {
+  border-bottom: 2px whitesmoke double;
+  height: 30;
+  text-align: center;
+  padding: auto;
+  padding-top: 15;
+  font-size: 20;
+}
+
+.box-4 {
+  border: 0px !important;
+  width: 50%;
+  margin: auto;
+  margin-top: 10px;
+  color: black;
+  border-radius: 10px;
+}
+
+.box-4 label {
+  display: block;
+  text-align: center;
+  font-size: 30;
+}
+.box-4 h1 {
+  text-align: center;
+  font-style: italic;
+  text-decoration: double;
+}
+
+.box-4 input {
+  text-align: center;
+  padding-left: 50px;
+  width: 630px;
+  height: 40;
+  background-color: #333;
+  border: 5px white solid;
+  font-size: 20px;
+  color: white;
+  border-radius: 202px;
+}
+
+.box-4 input::placeholder {
+  color: white;
+}
+
+.box-4 button {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+  background-color: blue;
+  margin-top: 10;
+  font-size: 20;
+  margin-top: 10;
+  margin-left: 210;
+  border-radius: 50px;
+  border: 0px !important ;
+  width: 250;
+  height: 50;
+}
+
+.box-5 {
+  float: left;
+  width: 33%;
+  border: 2px black solid !important;
+  margin-top: 10px;
+  color: white;
+}
+
+.p-box {
+  width: 500;
+  height: 300;
+  border: 2px black solid;
+  margin-top: 190px;
+  position: relative;
+  color: black;
+}
+
+.p-box h1 {
+  position: absolute;
+  top: 45px;
+  left: 80px;
+}
